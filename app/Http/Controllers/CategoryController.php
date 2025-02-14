@@ -13,11 +13,6 @@ class CategoryController extends Controller
 }
 
 
-    public function index()
-{
-    $projects = Project::all();
-    return response()->json($projects);
-}
 
     public function store(Request $request)
     {
